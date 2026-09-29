@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b6c745a849a9ab48977fecad30f25c2, type: 3}
+  m_Name: Lush Forest Boardwalk Swamp
+  m_EditorClassIdentifier: GaussianSplatting.SplatBox.Core::GaussianSplatting.Runtime.GaussianSplatAsset
+  m_FormatVersion: 20231020
+  m_SplatCount: 1920000
+  m_BoundsMin: {x: -22.765625, y: -13.828125, z: -44.3125}
+  m_BoundsMax: {x: 31.890625, y: 41.28125, z: 22.59375}
+  m_DataHash:
+    serializedVersion: 2
+    Hash: c373d77c8a09cca1d10c0d879e26a185
+  m_PosFormat: 2
+  m_ScaleFormat: 2
+  m_SHFormat: 3
+  m_ColorFormat: 2
+  m_PosData: {fileID: 4900000, guid: 36f19f9bc751b494991639f5f660736e, type: 3}
+  m_ColorData: {fileID: 4900000, guid: 9cb0d31149bc6494698230ef146a823a, type: 3}
+  m_OtherData: {fileID: 4900000, guid: b0b9ade6b5be5fa4b91a9c3f486e0433, type: 3}
+  m_SHData: {fileID: 4900000, guid: 736f3482f8e21734f913385cbc4ed97d, type: 3}
+  m_ChunkData: {fileID: 4900000, guid: 8c10edf573407534990690e2a03c0f2c, type: 3}
+  m_Cameras: []

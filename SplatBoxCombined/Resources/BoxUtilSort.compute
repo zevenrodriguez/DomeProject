@@ -1,0 +1,36 @@
+// GPU Radix Sort compute shader - separated from BoxUtil.compute because
+// wave intrinsics (#pragma require wavebasic, #pragma use_dxc) are only
+// available on DX12/Vulkan/Metal. Keeping them in the main BoxUtil.compute
+// would prevent ALL kernels from working on DX11/GLES.
+//
+// Android / Quest 3 note:
+// Wave intrinsics are NOT supported on OpenGL ES. On Android we therefore
+// only compile the Vulkan variant. You MUST enable Vulkan as the primary
+// Graphics API in Player Settings -> Android (and disable OpenGLES3) for
+// the build to work. Quest 3 supports Vulkan subgroup ops natively.
+//
+// Copyright Thomas Smith 2023, MIT license
+// https://github.com/b0nes164/GPUSorting
+
+#pragma kernel InitDeviceRadixSort
+#pragma kernel Upsweep
+#pragma kernel Scan
+#pragma kernel Downsweep
+
+// Restrict compilation to APIs that actually support HLSL SM6 wave intrinsics.
+// This avoids trying to compile a GLES3 variant (which fails) when building
+// for Android. Quest 3 supports Vulkan, so this is the correct path.
+// Note: Unity uses the same DXBC path for D3D11 and D3D12, so 'd3d11' covers
+// both ('d3d12' is not a recognized token for #pragma only_renderers).
+#pragma only_renderers d3d11 vulkan metal
+
+// Shader Model 5.0 baseline; DXC compiler promotes to SM6 for wave ops.
+#pragma target 5.0
+
+// Wave intrinsics require DX12/Vulkan/Metal and the DXC compiler.
+// wavebasic  -> WavePrefixSum, WaveGetLaneCount, WaveGetLaneIndex, WaveReadLaneAt
+// waveballot -> WaveActiveBallot
+#pragma require wavebasic waveballot
+#pragma use_dxc
+
+#include "DeviceRadixSort.hlsl"

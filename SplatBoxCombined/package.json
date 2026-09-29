@@ -1,0 +1,26 @@
+{
+    "name": "com.gaussiansplatting.splatbox.combined",
+    "version": "1.0.0",
+    "displayName": "SplatBox Combined (Render + Relight)",
+    "description": "All-in-one SplatBox package: Gaussian Splat editing toolbox with brush tools, clone, paint, sculpt, and integrated Relight add-on for custom lighting.",
+    "unity": "6000.0",
+    "dependencies": {
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.collections": "2.2.1",
+        "com.unity.burst": "1.8.18"
+    },
+    "keywords": [
+        "gaussian",
+        "splatting",
+        "3dgs",
+        "editor",
+        "brush",
+        "tools",
+        "relight",
+        "lighting",
+        "plugin"
+    ],
+    "author": {
+        "name": "SplatBox"
+    }
+}

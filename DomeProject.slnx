@@ -1,0 +1,10 @@
+﻿<Solution>
+  <Project Path="GaussianSplatting.SplatBox.Runtime.csproj" />
+  <Project Path="GaussianSplatting.SplatBox.Core.csproj" />
+  <Project Path="GaussianSplatting.SplatBox.Editor.csproj" />
+  <Project Path="Assembly-CSharp-Editor.csproj" />
+  <Project Path="GaussianSplatting.SplatBox.Relight.Editor.csproj" />
+  <Project Path="GaussianSplatting.SplatBox.Relight.csproj" />
+  <Project Path="WorldLabsAPI.Editor.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
+</Solution>

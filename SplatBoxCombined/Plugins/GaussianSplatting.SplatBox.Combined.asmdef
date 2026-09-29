@@ -1,0 +1,29 @@
+{
+    "name": "GaussianSplatting.SplatBox.Combined",
+    "rootNamespace": "GaussianSplatting.Runtime",
+    "references": [
+        "Unity.Mathematics",
+        "Unity.Collections",
+        "Unity.RenderPipelines.Core.Runtime",
+        "Unity.RenderPipelines.Universal.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "GaussianSplatting.SplatBox.Core.dll",
+        "GaussianSplatting.SplatBox.Runtime.dll",
+        "GaussianSplatting.SplatBox.Relight.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.render-pipelines.universal",
+            "expression": "",
+            "define": "GS_ENABLE_URP"
+        }
+    ],
+    "noEngineReferences": false
+}
