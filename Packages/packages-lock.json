@@ -1,20 +1,19 @@
 {
   "dependencies": {
     "com.gaussiansplatting.splatbox": {
-      "version": "file:C:/Users/zeven/Downloads/SplatBox1.12/SplatBox",
+      "version": "file:C:/Users/z.rodriguez2/Downloads/SplatBox1.12/SplatBox",
       "depth": 0,
       "source": "local",
       "dependencies": {}
     },
     "com.pfc.dome-tools": {
-      "version": "0.8.1",
+      "version": "file:C:/Users/z.rodriguez2/Downloads/DomeTools-main/DomeTools-main/package",
       "depth": 0,
-      "source": "registry",
+      "source": "local",
       "dependencies": {
         "com.unity.ugui": "1.0.0",
         "com.unity.shadergraph": "12.1.12"
-      },
-      "url": "https://package.openupm.com"
+      }
     },
     "com.unity.ai.navigation": {
       "version": "2.0.14",
@@ -207,12 +206,6 @@
         "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
-    },
-    "com.worldlabs.api": {
-      "version": "file:C:/Users/zeven/Downloads/WorldLabsAPI (1)/WorldLabsAPI/WorldLabsAPI",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {}
     },
     "jp.keijiro.klak.ndi": {
       "version": "2.1.6",

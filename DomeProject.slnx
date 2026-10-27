@@ -1,10 +1,13 @@
 ﻿<Solution>
+  <Project Path="pfc.DomeTools.csproj" />
   <Project Path="GaussianSplatting.SplatBox.Runtime.csproj" />
   <Project Path="GaussianSplatting.SplatBox.Core.csproj" />
   <Project Path="GaussianSplatting.SplatBox.Editor.csproj" />
+  <Project Path="pfc.Fulldome.HDRP.csproj" />
   <Project Path="Assembly-CSharp-Editor.csproj" />
+  <Project Path="pfc.DomeTools.Editor.csproj" />
   <Project Path="GaussianSplatting.SplatBox.Relight.Editor.csproj" />
   <Project Path="GaussianSplatting.SplatBox.Relight.csproj" />
-  <Project Path="WorldLabsAPI.Editor.csproj" />
+  <Project Path="pfc.Fulldome.Rendering.csproj" />
   <Project Path="Assembly-CSharp.csproj" />
 </Solution>

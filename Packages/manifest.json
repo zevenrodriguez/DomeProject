@@ -1,7 +1,7 @@
 {
   "dependencies": {
-    "com.gaussiansplatting.splatbox": "file:C:/Users/zeven/Downloads/SplatBox1.12/SplatBox",
-    "com.pfc.dome-tools": "0.8.1",
+    "com.gaussiansplatting.splatbox": "file:C:/Users/z.rodriguez2/Downloads/SplatBox1.12/SplatBox",
+    "com.pfc.dome-tools": "file:C:/Users/z.rodriguez2/Downloads/DomeTools-main/DomeTools-main/package",
     "com.unity.ai.navigation": "2.0.14",
     "com.unity.collab-proxy": "2.13.6",
     "com.unity.ide.rider": "3.0.39",
@@ -13,7 +13,6 @@
     "com.unity.timeline": "6.6.0",
     "com.unity.ugui": "2.6.0",
     "com.unity.visualscripting": "1.9.12",
-    "com.worldlabs.api": "file:C:/Users/zeven/Downloads/WorldLabsAPI (1)/WorldLabsAPI/WorldLabsAPI",
     "jp.keijiro.klak.ndi": "2.1.6",
     "com.unity.modules.accessibility": "1.0.0",
     "com.unity.modules.adaptiveperformance": "1.0.0",
@@ -54,17 +53,17 @@
   },
   "scopedRegistries": [
     {
-      "name": "OpenUPM",
-      "url": "https://package.openupm.com",
-      "scopes": [
-        "com.pfc.dome-tools"
-      ]
-    },
-    {
       "name": "Keijiro",
       "url": "https://registry.npmjs.com",
       "scopes": [
         "jp.keijiro"
+      ]
+    },
+    {
+      "name": "OpenUPM",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.pfc.dome-tools"
       ]
     }
   ]

@@ -39,8 +39,9 @@ MonoBehaviour:
     probeVolumeBlendStatesCS: {fileID: 7200000, guid: b9a23f869c4fd45f19c5ada54dd82176, type: 3}
   m_RendererFeatures:
   - {fileID: 7833122117494664109}
-  - {fileID: -5698565409251087793}
-  m_RendererFeatureMap: ad6b866f10d7b46c9b99000000050000l
+  - {fileID: 0}
+  - {fileID: 6825813991812292906}
+  m_RendererFeatureMap: ad6b866f10d7b46c9b990000000500002ae1dc2ca929ba5el
   xrSystemData: {fileID: 0}
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   m_AssetVersion: 3
@@ -69,6 +70,19 @@ MonoBehaviour:
   m_AccurateGbufferNormals: 0
   m_IntermediateTextureMode: 0
   m_TileOnlyMode: 0
+--- !u!114 &6825813991812292906
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 048aea80ab5bfc947b46d4801d8fcca0, type: 3}
+  m_Name: Gaussian Splat URP Feature
+  m_EditorClassIdentifier: GaussianSplatting.SplatBox.Runtime::GaussianSplatting.Runtime.GaussianSplatURPFeature
+  m_Active: 1
 --- !u!114 &7833122117494664109
 MonoBehaviour:
   m_ObjectHideFlags: 1
